@@ -6,7 +6,7 @@
 y laboratorios que te escuchan tocar por USB-MIDI y te ponen nota.**
 
 De no saber dónde está el Do a tocar a dos manos piezas de nivel intermedio y acompañar canciones con acordes.
-20–30 min al día, 5 días a la semana, 2–3 años.
+2 sesiones por semana de 45–60 min, 3–4 años.
 
 ![Vídeo de la lección 1](assets/img/portada.jpg)
 
@@ -25,7 +25,7 @@ De no saber dónde está el Do a tocar a dos manos piezas de nivel intermedio y 
 | 🎹 **Labs con tu piano** | Conectas el piano digital al PC por USB y el lab mide qué notas tocas, con qué precisión rítmica (en ms), con qué fuerza y si usas el pedal. |
 | ✅ **Criterios claros** | Cada lección tiene un criterio para darla por superada (p. ej. ≥ 90 % de notas y < 80 ms de desviación). Sin superarlo, no se pasa a la siguiente. |
 | 📈 **Progreso** | Cada lab y cada sesión de práctica se apuntan en `progress/log.csv`. Un panel te enseña horas, racha y lecciones superadas. |
-| 👩‍🏫 **Profesor de verdad** | Cada 1–2 meses te recomienda una clase con un profesor real: el MIDI no ve tu postura ni la tensión de las manos. |
+| 👩‍🏫 **Profesor de verdad** | Cada 2–3 meses te recomienda una clase con un profesor real: el MIDI no ve tu postura ni la tensión de las manos. |
 
 <table>
 <tr>
@@ -46,11 +46,11 @@ De no saber dónde está el Do a tocar a dos manos piezas de nivel intermedio y 
 
 | Nivel | Cuándo | Lo que sabrás hacer |
 |---|---|---|
-| **0 · Setup** | Semanas 1–2 | Elegir el piano, postura, encontrar cualquier nota en el teclado |
-| **1 · Fundamentos** | Meses 1–3 | Cinco dedos, ritmo con metrónomo, leer en clave de sol y de fa, manos juntas |
-| **2 · Bases sólidas** | Meses 3–6 | Corcheas, escalas, acordes, pedal, primeras piezas reales |
-| **3 · Intermedio inicial** | Meses 6–12 | Tonalidades menores, cifrado americano, acompañamientos, Burgmüller y Bach |
-| **4 · Competente** | Años 2–3 | Todas las tonalidades, polifonía, improvisación, Clementi, Chopin, Satie, Einaudi… y *Runaway* |
+| **0 · Setup** | Semanas 1–3 | Elegir el piano, postura, encontrar cualquier nota en el teclado |
+| **1 · Fundamentos** | Meses 1–4 | Cinco dedos, ritmo con metrónomo, leer en clave de sol y de fa, manos juntas |
+| **2 · Bases sólidas** | Meses 4–9 | Corcheas, escalas, acordes, pedal, primeras piezas reales |
+| **3 · Intermedio inicial** | Meses 9–18 | Tonalidades menores, cifrado americano, acompañamientos, Burgmüller y Bach |
+| **4 · Competente** | Años 2–4 | Todas las tonalidades, polifonía, improvisación, Clementi, Chopin, Satie, Einaudi… y *Runaway* |
 
 👉 Las 30 lecciones con sus criterios están en **[curriculum.md](curriculum.md)**.
 

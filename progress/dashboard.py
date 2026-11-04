@@ -28,18 +28,19 @@ superadas = sorted(labs.loc[labs["superado"] == "si", "leccion"].unique())
 
 hoy = pd.Timestamp.now().normalize()
 semana = practica[practica["fecha"] >= hoy - pd.Timedelta(days=6)]
-dias = practica["fecha"].dt.normalize().drop_duplicates().sort_values(ascending=False)
+# Racha: semanas seguidas con al menos 2 días de práctica (la semana en curso cuenta si ya llega a 2)
+dias_por_semana = practica["fecha"].dt.normalize().drop_duplicates().dt.to_period("W").value_counts()
+semana_actual = hoy.to_period("W")
 racha = 0
-for d in dias:
-    if d == hoy - pd.Timedelta(days=racha):
-        racha += 1
-    else:
-        break
+p = semana_actual if dias_por_semana.get(semana_actual, 0) >= 2 else semana_actual - 1
+while dias_por_semana.get(p, 0) >= 2:
+    racha += 1
+    p -= 1
 
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Horas totales", f"{practica['minutos'].sum() / 60:.1f}")
-c2.metric("Minutos esta semana", f"{semana['minutos'].sum():.0f}", help="Objetivo: 100–150 (20–30 min × 5 días)")
-c3.metric("Racha de días", racha)
+c2.metric("Minutos esta semana", f"{semana['minutos'].sum():.0f}", help="Objetivo: 90–120 (2 sesiones de 45–60 min)")
+c3.metric("Semanas seguidas", racha, help="Semanas con al menos 2 sesiones de práctica")
 c4.metric("Lecciones superadas", f"{len(superadas)} / 30")
 
 if not practica.empty:

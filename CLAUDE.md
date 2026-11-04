@@ -21,7 +21,7 @@
 
 ## 1. Contexto
 
-Soy César, adulto, **cero total en música y piano**. Quiero aprender como hobby, poco a poco (20–30 min/día, 5 días/semana), hasta un **nivel competente**: leer partituras con soltura, tocar con las dos manos piezas de nivel intermedio (equivalente a grado 4–5 ABRSM / final de grado elemental de conservatorio) y acompañar canciones con acordes. Horizonte realista: 2–3 años.
+Soy César, adulto, **cero total en música y piano**. Quiero aprender como hobby, poco a poco (**2 sesiones/semana de 45–60 min**; actualizado 2026-11-04, antes eran 5 días), hasta un **nivel competente**: leer partituras con soltura, tocar con las dos manos piezas de nivel intermedio (equivalente a grado 4–5 ABRSM / final de grado elemental de conservatorio) y acompañar canciones con acordes. Horizonte realista: 3–4 años.
 
 **Importante sobre mí como usuario:**
 - No sé leer ni escribir código. Tú (Claude Code) construyes y ejecutas todo. Yo solo debo copiar/pegar comandos simples y probar.
@@ -133,4 +133,4 @@ Explica, con vídeo 3D comparativo (acción de teclas, tamaño, conexiones):
 - Después, una lección por sesión. Haz commits claros y push a GitHub.
 - Todo instalable en Windows con un `setup.ps1`.
 - Explícame cada cosa como a alguien que no programa: qué comando ejecutar, qué debería ver y qué hacer si falla.
-- Recomiéndame, cada 1–2 meses, una clase puntual con profesor real para corregir postura y tensión (eso no lo puede evaluar el MIDI).
+- Recomiéndame, cada 2–3 meses, una clase puntual con profesor real para corregir postura y tensión (eso no lo puede evaluar el MIDI).

@@ -4,7 +4,7 @@
 **Nivel:** 0 — Setup.
 
 ## Objetivos
-- Saber qué piano digital comprar para que sirva **los 2–3 años del curso**.
+- Saber qué piano digital comprar para que sirva **los 3–4 años del curso**.
 - Distinguir un "teclado" de un **piano digital** (lo que de verdad necesitas).
 - Que tu casa no sea un problema: todo cabe en un hueco de 1,4 m × 0,4 m.
 - Comprar los accesorios que importan y no los que sobran.
