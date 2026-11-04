@@ -1,0 +1,57 @@
+[
+  {
+    "pregunta": "En una tienda te ofrecen un teclado de 61 teclas 'touch response' por 180 €. ¿Te sirve para el curso?",
+    "opciones": [
+      "No: faltan teclas y no tiene acción de martillo con peso",
+      "Sí, para empezar es suficiente y luego cambio",
+      "Sí, si tiene USB",
+      "Sí, si tiene altavoces potentes"
+    ],
+    "correcta": 0,
+    "explicacion": "Necesitas 88 teclas con acción de martillo graduada. Con un teclado sin peso los dedos no aprenden a controlar la fuerza y lo tendrías que cambiar en pocos meses."
+  },
+  {
+    "pregunta": "¿Qué conexión es IMPRESCINDIBLE para que los laboratorios del curso te evalúen?",
+    "opciones": [
+      "USB to Host (USB-B, cuadrado) para MIDI",
+      "Salida de línea (Line Out)",
+      "Bluetooth audio",
+      "USB to Device (para pendrives)"
+    ],
+    "correcta": 0,
+    "explicacion": "El puerto 'USB to Host' envía por MIDI cada nota, su fuerza y el pedal al PC. Es lo que leen los labs."
+  },
+  {
+    "pregunta": "¿Qué significa 'acción de martillo graduada'?",
+    "opciones": [
+      "Las teclas graves pesan más que las agudas, como en un piano acústico",
+      "Que el piano tiene martillos que golpean cuerdas reales",
+      "Que puedes graduar el volumen con una rueda",
+      "Que todas las teclas pesan exactamente lo mismo"
+    ],
+    "correcta": 0,
+    "explicacion": "En un piano real los martillos de los graves son más grandes y pesan más. Un digital 'graduado' lo imita."
+  },
+  {
+    "pregunta": "El piano trae en la caja un pedal pequeño y cuadrado. ¿Qué haces?",
+    "opciones": [
+      "Comprar un pedal tipo piano de la misma marca (30–45 €)",
+      "Usarlo siempre: todos los pedales son iguales",
+      "No usar pedal nunca",
+      "Comprar un pedal de guitarra"
+    ],
+    "correcta": 0,
+    "explicacion": "El cuadrado resbala por el suelo y solo es on/off. Uno tipo piano de la misma marca permite el medio pedal y se queda quieto."
+  },
+  {
+    "pregunta": "Tienes poco espacio en casa. ¿Qué opción es la peor?",
+    "opciones": [
+      "Un soporte en X que se balancea al tocar",
+      "Un soporte en Z plegable",
+      "Una mesa firme con una silla regulable",
+      "Un modelo fino como el Casio PX-S1100"
+    ],
+    "correcta": 0,
+    "explicacion": "Lo que necesitas es estabilidad: si el piano se mueve al tocar, cargas tensión en brazos y hombros. El soporte en Z, la mesa firme y los modelos finos funcionan bien en pisos pequeños."
+  }
+]

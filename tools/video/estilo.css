@@ -1,0 +1,48 @@
+html, body { margin: 0; background: #000; overflow: hidden; font-family: "Segoe UI", Inter, system-ui, sans-serif; }
+
+#escenario { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; overflow: hidden; background: #07080c; }
+#lienzo { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+#capa { position: absolute; inset: 0; color: #eef1f7; pointer-events: none; }
+
+#titulo { position: absolute; left: 0; right: 0; top: 0; height: 1080px; padding-top: 340px; box-sizing: border-box;
+  text-align: center; opacity: 0;
+  background: radial-gradient(ellipse 900px 360px at 50% 470px, rgba(5,7,12,.88), rgba(5,7,12,.55) 60%, rgba(5,7,12,0)); }
+#titulo h1 { margin: 0; font-size: 96px; font-weight: 700; letter-spacing: -1px; text-shadow: 0 6px 40px rgba(0,0,0,.8); }
+#titulo p { margin: 18px 0 0; font-size: 38px; color: #9fb3d9; }
+#titulo .num { display: inline-block; font-size: 30px; letter-spacing: 6px; color: #f5b841; margin-bottom: 18px; font-weight: 600; }
+
+#sub { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); max-width: 1500px;
+  padding: 14px 30px; border-radius: 14px; background: rgba(5, 7, 12, .72); font-size: 40px; line-height: 1.3;
+  text-align: center; opacity: 0; }
+
+#marca { position: absolute; right: 40px; top: 30px; font-size: 22px; letter-spacing: 3px; color: rgba(255,255,255,.35); text-transform: uppercase; }
+
+.panel { position: absolute; opacity: 0; }
+.tarjetas { display: flex; flex-direction: column; gap: 18px; width: 620px; }
+.tarjeta { background: rgba(14, 18, 28, .86); border: 1px solid rgba(255,255,255,.08); border-left: 6px solid #f5b841;
+  border-radius: 16px; padding: 20px 26px; font-size: 34px; line-height: 1.25; transition: none; }
+.tarjetas.fila { flex-direction: row; width: auto; }
+.tarjetas.fila .tarjeta { width: 460px; }
+.tarjeta b { color: #f5b841; }
+.tarjeta.mal { border-left-color: #ef4444; }
+.tarjeta.bien { border-left-color: #22c55e; }
+.tarjeta small { display: block; font-size: 25px; color: #9fb3d9; margin-top: 6px; }
+
+.etiqueta { font-size: 34px; font-weight: 700; padding: 8px 18px; border-radius: 10px; background: rgba(14,18,28,.85); }
+
+.medidor { width: 520px; background: rgba(14,18,28,.86); border-radius: 16px; padding: 22px 28px; font-size: 30px; }
+.medidor .barra { height: 34px; border-radius: 10px; background: rgba(255,255,255,.08); overflow: hidden; margin-top: 14px; }
+.medidor .relleno { height: 100%; width: 0; background: linear-gradient(90deg, #38bdf8, #f5b841, #f97316); }
+.medidor .valor { font-size: 64px; font-weight: 700; color: #f5b841; }
+
+table.modelos { border-collapse: collapse; font-size: 30px; background: rgba(10, 13, 20, .9); border-radius: 18px; overflow: hidden; }
+table.modelos th, table.modelos td { padding: 14px 26px; text-align: left; border-bottom: 1px solid rgba(255,255,255,.07); }
+table.modelos th { color: #9fb3d9; font-weight: 600; font-size: 24px; text-transform: uppercase; letter-spacing: 2px; }
+table.modelos td.precio { color: #f5b841; font-weight: 700; text-align: right; }
+table.modelos tr.grupo td { color: #9fb3d9; font-size: 24px; padding-top: 18px; }
+
+.comando { display: inline-block; font-family: Consolas, "Cascadia Mono", monospace; font-size: 44px; background: #0d1117; border: 1px solid #30363d;
+  border-radius: 14px; padding: 22px 34px; color: #7ee787; }
+
+#ayuda { position: fixed; left: 12px; bottom: 10px; color: #888; font: 14px system-ui; }
+body.render #ayuda { display: none; }

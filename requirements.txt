@@ -1,0 +1,18 @@
+# Piano Zero to Hero — dependencias de Python (las instala setup.ps1)
+
+# MIDI: escuchar el piano digital por USB
+mido>=1.3.3
+python-rtmidi>=1.5.8
+
+# Consola con colores y tablas
+rich>=13.9
+
+# Vídeos: voz, captura de frames y montaje
+edge-tts>=7.0
+playwright>=1.49
+imageio-ffmpeg>=0.5.1
+numpy>=2.1
+
+# Dashboard de progreso
+streamlit>=1.41
+pandas>=2.2

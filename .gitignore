@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# Ficheros intermedios de los vídeos (voz, audio, timeline, frames de prueba)
+lessons/*/video/build/
+
+# Partituras con copyright que aportas tú (no se suben a GitHub)
+assets/partituras/privado/
+
+# Tu log de progreso es tuyo; quita esta línea si quieres versionarlo en GitHub
+progress/log.csv

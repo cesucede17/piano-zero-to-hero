@@ -1,0 +1,69 @@
+{
+  "titulo": "Lección 1 · Elegir tu piano",
+  "voz": "es-ES-AlvaroNeural",
+  "ritmo": "+0%",
+  "_ayuda": "Cada escena: id (en escenas.js), texto (narración y subtítulos), min (duración mínima, s), entrada (s antes de la voz), pausa (s después), notas [t, midi, velocidad, duración] desde el inicio de la escena o desde el fin de la voz si notas_desde = 'fin_voz'.",
+  "escenas": [
+    {
+      "id": "intro", "min": 9, "entrada": 3.0,
+      "texto": "Lección uno: elegir tu piano. En tres minutos vas a saber exactamente qué comprar para aprender desde cero, aunque tengas poco espacio en casa.",
+      "notas": [[0.6, 60, 62, 1.6], [0.8, 64, 66, 1.6], [1.0, 67, 70, 1.6], [1.2, 72, 76, 1.6], [1.4, 76, 80, 1.4], [1.6, 79, 84, 1.4], [1.8, 84, 90, 2.0]]
+    },
+    {
+      "id": "digital", "min": 12,
+      "texto": "Para empezar, un piano digital es mejor que uno acústico. Cuesta diez veces menos, pesa doce kilos en vez de doscientos, se toca con auriculares a cualquier hora y, sobre todo, se conecta al ordenador por USB para que los laboratorios del curso te escuchen y te pongan nota."
+    },
+    {
+      "id": "espacio", "min": 10,
+      "texto": "¿Poco sitio? No pasa nada. Un piano digital portátil mide unos ciento treinta centímetros de ancho y menos de treinta de fondo. Puedes ponerlo en una mesa firme, en un soporte plegable, o guardarlo debajo de la cama."
+    },
+    {
+      "id": "teclas88", "min": 9,
+      "texto": "Primer requisito: ochenta y ocho teclas. Los teclados baratos tienen sesenta y una, y te quedarías sin notas en cuanto toques piezas de verdad."
+    },
+    {
+      "id": "martillo", "min": 16, "pausa": 1.5,
+      "texto": "Segundo, y el más importante: acción de martillo graduada. Bajo cada tecla hay un pequeño martillo que le da peso, como en un piano acústico. Los teclados semicontrapesados usan un muelle, y tus dedos no aprenden a controlar la fuerza. Y graduada significa que los graves pesan más que los agudos."
+    },
+    {
+      "id": "velocidad", "min": 9, "pausa": 4.0, "notas_desde": "fin_voz",
+      "texto": "Tercero, sensibilidad a la velocidad: cuanto más rápido bajas la tecla, más fuerte suena. Escucha: suave, y fuerte.",
+      "notas": [[0.3, 60, 30, 1.3], [2.0, 60, 120, 1.8]]
+    },
+    {
+      "id": "polifonia", "min": 10, "entrada": 0.3,
+      "texto": "Cuarto, polifonía de sesenta y cuatro notas o más. Es cuántas notas pueden sonar a la vez. Con el pedal pisado se acumulan muy rápido.",
+      "notas": [
+        [0.8, 36, 70, 9], [0.95, 40, 70, 9], [1.1, 43, 70, 9], [1.25, 48, 72, 9], [1.4, 52, 72, 9], [1.55, 55, 72, 9],
+        [1.7, 60, 74, 9], [1.85, 64, 74, 9], [2.0, 67, 74, 9], [2.15, 72, 76, 9], [2.3, 76, 76, 9], [2.45, 79, 76, 9],
+        [2.6, 84, 78, 9], [2.75, 88, 78, 9], [2.9, 91, 78, 9], [3.05, 96, 80, 9],
+        [4.4, 93, 64, 6], [4.55, 89, 64, 6], [4.7, 86, 64, 6], [4.85, 81, 64, 6], [5.0, 77, 64, 6], [5.15, 74, 64, 6],
+        [5.3, 69, 64, 6], [5.45, 65, 64, 6], [5.6, 62, 64, 6], [5.75, 57, 64, 6], [5.9, 53, 64, 6], [6.05, 50, 64, 6],
+        [6.2, 45, 64, 6], [6.35, 41, 64, 6], [6.5, 38, 64, 6], [6.65, 33, 64, 6]
+      ]
+    },
+    {
+      "id": "conexiones", "min": 14,
+      "texto": "Quinto, el puerto USB to Host: este conector cuadrado de la parte de atrás. Por él viaja cada nota, su fuerza y el pedal hasta tu ordenador. Sin él, el curso no puede evaluarte. Y sexto: una salida de auriculares, para practicar sin molestar.",
+      "notas": [[2.0, 60, 80, 0.4], [2.5, 64, 80, 0.4], [3.0, 67, 80, 0.4], [3.5, 72, 90, 0.8], [6.0, 65, 70, 0.4], [6.5, 69, 70, 0.4], [7.0, 72, 70, 0.4], [7.5, 77, 85, 0.8], [10.0, 67, 75, 0.4], [10.5, 71, 75, 0.4], [11.0, 74, 75, 0.4], [11.5, 79, 90, 1.0]]
+    },
+    {
+      "id": "pedal", "min": 12,
+      "texto": "Ojo con el pedal que viene en la caja: suele ser un interruptor cuadrado que resbala y solo dice encendido o apagado. Cómprate un pedal tipo piano de la misma marca. Cuesta unos treinta o cuarenta euros."
+    },
+    {
+      "id": "modelos", "min": 14, "pausa": 1.5,
+      "texto": "Con todo esto, los modelos que recomiendo hoy: Roland FP diez o Yamaha P ciento cuarenta y cinco, por unos cuatrocientos euros. Casio PX S mil cien, si buscas el más fino. Y Kawai ES ciento veinte, Yamaha P doscientos veinticinco o Roland FP treinta X, entre quinientos setenta y setecientos. Tienes la tabla completa en la lección."
+    },
+    {
+      "id": "accesorios", "min": 12,
+      "texto": "Y los accesorios: un soporte estable, mejor en Z que en X, una banqueta regulable, auriculares cerrados y el cable USB. El atril ya viene con el piano."
+    },
+    {
+      "id": "cierre", "min": 10, "pausa": 4.0,
+      "texto": "Ahora haz el quiz del laboratorio. Y cuando llegue tu piano, conéctalo y pasa el detector: comprobará solo las ochenta y ocho teclas, la velocidad y el pedal. Nos vemos en la lección dos.",
+      "notas_desde": "fin_voz",
+      "notas": [[0.2, 48, 70, 3.2], [0.2, 55, 66, 3.2], [0.35, 60, 70, 3.0], [0.5, 64, 72, 2.9], [0.65, 67, 74, 2.8], [0.8, 72, 80, 2.7]]
+    }
+  ]
+}

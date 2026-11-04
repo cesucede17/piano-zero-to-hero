@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Piano Zero to Hero · escena</title>
+  <script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js" } }</script>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div id="escenario">
+    <canvas id="lienzo" width="1920" height="1080"></canvas>
+    <div id="capa">
+      <div id="titulo"></div>
+      <div id="paneles"></div>
+      <div id="sub"></div>
+      <div id="marca">Piano Zero to Hero</div>
+    </div>
+  </div>
+  <div id="ayuda">Clic para reproducir con sonido · ←/→ saltar 5 s</div>
+  <script type="module" src="engine.js"></script>
+</body>
+</html>

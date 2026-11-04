@@ -1,0 +1,8 @@
+{
+  "name": "piano-zero-to-hero",
+  "private": true,
+  "description": "Escenas 3D (Three.js) de los vídeos del curso",
+  "dependencies": {
+    "three": "0.170.0"
+  }
+}
